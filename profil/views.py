@@ -6,3 +6,9 @@ def home(request):
 
 def berita(request):
     return render(request,'berita.html')
+
+def temp(request):
+    return render(request,'temp.html')
+
+def about(request):
+    return render(request,'about.html')
